@@ -7,9 +7,9 @@ import type { FriendLink } from "./types/friend"
 import type { I18nConfig } from "./types/i18n"
 
 export const siteConfig: SiteConfig = {
-    title: "Momo", // Title of the site, used in the tab in the browser and in SEO
+    title: "秋末冬初", // Title of the site, used in the tab in the browser and in SEO
     subTitle: "Blog", // Subtitle of the site
-    rootSiteUrl: "https://momo.motues.top", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
+    rootSiteUrl: "https://blog.wintumn.com", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
 
     favicon: "/favicon/favicon.ico", // Path of the favicon, relative to the /public directory
 
@@ -75,7 +75,7 @@ export const i18nConfig: I18nConfig = {
         "zh-cn": {
             Cover: {
                 title: {
-                    home: "欢迎来到 Momo 的博客",
+                    home: "秋末冬初的博客",
                     archive: "文章归档",
                     about: "关于",
                     friends: "友链",
@@ -91,7 +91,7 @@ export const i18nConfig: I18nConfig = {
         "en": {
             Cover: {
                 title: {
-                    home: "Welcome to Momo's Blog",
+                    home: "Welcome to wintumn's Blog",
                     archive: "Archive",
                     about: "About",
                     friends: "Friends",
