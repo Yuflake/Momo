@@ -7,7 +7,7 @@ import type { FriendLink } from "./types/friend"
 import type { I18nConfig } from "./types/i18n"
 
 export const siteConfig: SiteConfig = {
-    title: "秋末冬初", // Title of the site, used in the tab in the browser and in SEO
+    title: "Wintumn", // Title of the site, used in the tab in the browser and in SEO
     subTitle: "Blog", // Subtitle of the site
     rootSiteUrl: "https://blog.wintumn.com", // Root URL of the site, used for generating absolute URLs for SEO and social sharing
 
@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
         backendUrl: "https://api-momo.motues.top" // Backend URL for comments
     },
     theme: {
-        AOS: true, // Whether to enable entrance animations (scroll/pop-in reveal, built in; the key name is kept for compatibility)
+        AOS: false, // Whether to enable entrance animations (scroll/pop-in reveal, built in; the key name is kept for compatibility)
         LQIP: true, // Whether to enable LQIP (Low-Quality Image Placeholder) for image placeholders
         PhotoSwipe: true, // Whether to enable PhotoSwipe for image viewer
         imageCollage: {
@@ -56,10 +56,10 @@ export const siteConfig: SiteConfig = {
 
 export const profileConfig: ProfileConfig = {
     avatar: "assets/Motues.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    name: "Motues", // Used in the footer of the blog
-    description: "Life is colorful!", // Used in SEO
-    indexPage: "https://www.motues.top", // The homepage, used in footer and SEO
-    startYear: 2024, // The year the site was created, used in the footer
+    name: "Wintumn", // Used in the footer of the blog
+    description: "秋末冬初的博客，记录生活，学习。", // Used in SEO
+    indexPage: "https://www.wintumn.com", // The homepage, used in footer and SEO
+    startYear: 2026, // The year the site was created, used in the footer
 }
 
 export const licenseConfig: LicenseConfig = {
@@ -75,15 +75,15 @@ export const i18nConfig: I18nConfig = {
         "zh-cn": {
             Cover: {
                 title: {
-                    home: "秋末冬初的博客",
+                    home: "欢迎来到我的博客",
                     archive: "文章归档",
                     about: "关于",
                     friends: "友链",
                 },
                 subTitle: {
-                    home: "生活多彩！",
+                    home: "春花，秋月，夏风，冬雪",
                     archive: "共 {count} 篇文章", // {count} will be replaced with the total number of articles
-                    about: "一个极简的Blog模板",
+                    about: "About",
                     friends: "有趣的灵魂",
                 }
             }
@@ -97,9 +97,9 @@ export const i18nConfig: I18nConfig = {
                     friends: "Friends",
                 },
                 subTitle: {
-                    home: "Life is colorful!",
+                    home: "The beauty of the world",
                     archive: "Total of {count} articles",
-                    about: "A minimalist blog template",
+                    about: "About",
                     friends: "Interesting Souls",
                 }
             }
